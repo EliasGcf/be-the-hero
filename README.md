@@ -41,6 +41,8 @@
   <a href="https://insomnia.rest/run/?label=Be%20The%20Hero&uri=https%3A%2F%2Fraw.githubusercontent.com%2FEliasGcf%2Fbe-the-hero%2Fmaster%2FInsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
+<img alt="Layout" src="https://res.cloudinary.com/eliasgcf/image/upload/v1585345367/be-the-hero/mockup_uf7cxb.png">
+
 ## 🦸‍♀️ Projeto
 
 Com essa aplicação, e por meio do front-end web, as ONGs podem informar sobre seus casos, necessidades e o valor necessário para solucionar o problema.
