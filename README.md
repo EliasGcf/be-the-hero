@@ -8,17 +8,23 @@
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EliasGcf/be-the-hero">
+  
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/EliasGcf/be-the-hero">
-  <a href="https://app.codacy.com/manual/EliasGcf/be-the-hero?utm_source=github.com&utm_medium=referral&utm_content=EliasGcf/be-the-hero&utm_campaign=Badge_Grade_Dashboard">
-    <img alt="Codacy Badge" src="https://api.codacy.com/project/badge/Grade/968ab92877354d2e88b48b7e5831ffe4">
+  
+  <a href="https://www.codacy.com/manual/EliasGcf/be-the-hero?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EliasGcf/be-the-hero&amp;utm_campaign=Badge_Grade">
+    <img src="https://api.codacy.com/project/badge/Grade/b24c3d160250493fbd4dd26acd9a7ad3"/>
   </a>
+  
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasGcf/be-the-hero">
+  
   <a href="https://github.com/EliasGcf/be-the-hero/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/be-the-hero">
   </a>
+  
   <a href="https://github.com/EliasGcf/be-the-hero/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/EliasGcf/be-the-hero">
   </a>
+  
   <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/be-the-hero">
 </p>
 
