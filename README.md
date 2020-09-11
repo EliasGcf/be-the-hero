@@ -8,21 +8,10 @@
 <!-- E02041 -->
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EliasGcf/be-the-hero?color=%23E02041">
-
-  <a href="https://www.linkedin.com/in/eliasgcf/">
-    <img alt="Made by" src="https://img.shields.io/badge/made%20by-elias%20gabriel-%23E02041">
-  </a>
-  
+  <a href="https://www.linkedin.com/in/eliasgcf/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Elias%20Gabriel-%23E02041"></a>
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasGcf/be-the-hero?color=%23E02041">
-  
-  <a href="https://github.com/EliasGcf/be-the-hero/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/be-the-hero?color=%23E02041">
-  </a>
-  
-  <a href="https://github.com/EliasGcf/be-the-hero/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/EliasGcf/be-the-hero?color=%23E02041">
-  </a>
-  
+  <a href="https://github.com/EliasGcf/be-the-hero/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/be-the-hero?color=%23E02041"></a>
+  <a href="https://github.com/EliasGcf/be-the-hero/issues"><img alt="Repository issues" src="https://img.shields.io/github/issues/EliasGcf/be-the-hero?color=%23E02041"></a>
   <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/be-the-hero?color=%23E02041">
 </p>
 
@@ -208,4 +197,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with 💜 by Elias Gabriel 👋 [See my linkedin](https://www.linkedin.com/in/eliasgcf/)
+Made with 💜 &nbsp;by Elias Gabriel 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/eliasgcf/)
