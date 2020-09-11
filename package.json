@@ -1,0 +1,13 @@
+{
+  "name": "be-the-hero",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:EliasGcf/be-the-hero.git",
+  "author": "Elias Gabriel <eliasgabrielcf@gmail.com>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
