@@ -1,11 +1,14 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
+  "name": "@be-the-hero/mobile",
+  "main": "__generated__/AppEntry.js",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "postinstall": "expo-yarn-workspaces postinstall"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.5",
@@ -17,18 +20,17 @@
     "expo-mail-composer": "~8.0.0",
     "intl": "^1.2.5",
     "react": "~16.9.0",
-    "react-dom": "~16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
     "react-native-gesture-handler": "~1.5.0",
     "react-native-reanimated": "~1.4.0",
     "react-native-safe-area-context": "0.6.0",
     "react-native-screens": "2.0.0-alpha.12",
-    "react-native-web": "~0.11.7",
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "babel-preset-expo": "~8.0.0"
-  },
-  "private": true
+    "babel-preset-expo": "~8.0.0",
+    "expo-yarn-workspaces": "^1.2.1",
+    "metro-config": "0.56.4"
+  }
 }

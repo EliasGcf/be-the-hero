@@ -86,7 +86,7 @@ Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomn
 ### Requirements
 
 - [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
+- [Yarn](https://classic.yarnpkg.com/)
 - [Expo](https://expo.io/)
 - One instance of [PostgreSQL](https://www.postgresql.org/)
 
@@ -98,32 +98,32 @@ Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomn
 $ git clone https://github.com/EliasGcf/be-the-hero.git && cd be-the-hero
 ```
 
+**Install dependencies**
+
+```bash
+$ yarn
+```
+
 **Follow the steps below**
 
 ### Backend
 
 ```bash
-# Starting from the project root folder, go to server folder
-$ cd server
-
-# Install the dependencies
-$ yarn
-
 # Create the instance of postgreSQL using docker
 $ docker run --name bethehero-postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 
 # Make a copy of '.env.example' to '.env'
 # and set with YOUR environment variables
-$ cp .env.example .env
+$ cp packages/server/.env.example packages/server/.env
 
 # Once the services are running, create the database inside of container
-$ yarn sequelize db:create
+$ yarn server sequelize db:create
 
 # With the database created, run the migrations
-$ yarn sequelize db:migrate
+$ yarn server sequelize db:migrate
 
 # To finish, run the api service
-$ yarn dev
+$ yarn server dev
 
 # Well done, project is started!
 ```
@@ -133,16 +133,10 @@ $ yarn dev
 _Obs.: Before to continue, be sure to have the API running_
 
 ```bash
-# Starting from the project root folder, go to frontend web folder
-$ cd web
-
-# Install the dependencies
-$ yarn
-
-# Be sure the file 'src/services/api.ts' have the IP to your API
+# Be sure the file 'packages/web/src/services/api.ts' have the IP to your API
 
 # Start the client
-$ yarn start
+$ yarn web start
 ```
 
 ### Mobile
@@ -150,16 +144,10 @@ $ yarn start
 _Obs.: Before to continue, be sure to have the API running_
 
 ```bash
-# Starting from the project root folder, go to mobile folder
-$ cd mobile
-
-# Install the dependencies
-$ yarn
-
-# Be sure the file 'src/services/api.ts' have the IP to your API
+# Be sure the file 'packages/mobile/src/services/api.ts' have the IP to your API
 
 # Start the expo service and scan the QR code with Expo Client
-$ yarn expo
+$ yarn mobile expo
 ```
 
 ## 🤔 How to contribute
