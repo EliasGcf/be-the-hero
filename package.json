@@ -5,6 +5,11 @@
   "repository": "git@github.com:EliasGcf/be-the-hero.git",
   "author": "Elias Gabriel <eliasgabrielcf@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "server": "yarn workspace @be-the-hero/server",
+    "web": "yarn workspace @be-the-hero/web",
+    "mobile": "yarn workspace @be-the-hero/mobile"
+  },
   "workspaces": {
     "packages": [
       "packages/*"
